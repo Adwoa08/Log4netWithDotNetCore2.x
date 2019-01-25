@@ -1,0 +1,1 @@
+# Log4netWithDotNetCore2.x
