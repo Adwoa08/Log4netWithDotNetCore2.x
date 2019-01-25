@@ -41,7 +41,6 @@ namespace WebApplication1
             }
 
             app.UseHttpsRedirection();
-            // loggerFactory.AddLog4Net();// adding log4net
             app.UseMvc();
         }
     }

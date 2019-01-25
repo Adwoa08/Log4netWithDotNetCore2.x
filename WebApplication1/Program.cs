@@ -29,7 +29,6 @@ namespace WebApplication1
             WebHost.CreateDefaultBuilder(args)
                 .ConfigureLogging((webHostBuilderContext, loggingBuilder) =>
                 {
-                    // webHostBuilderContext.HostingEnvironment.con
                     loggingBuilder.AddLog4Net();
                 })
                 .UseStartup<Startup>();
